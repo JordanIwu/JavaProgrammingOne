@@ -1,21 +1,21 @@
-
 package Chapter2;
 
-/**
- *Finds the total, tax, and tip for a meal where the subtotals for the drink meal and desert
- * is entered in by the user.
- * @author Jordan Iwuchukwu
- */
 import java.util.Scanner;
 
+/**
+ * Finds the total, tax, and tip for a meal where the subtotals for the drink
+ * meal and desert is entered in by the user.
+ *
+ * @author Jordan Iwuchukwu
+ */
 public class P2 {
-    public static void main(String[] args) {
-        /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("What was the price of the meal ");
         double Meal = input.nextDouble();

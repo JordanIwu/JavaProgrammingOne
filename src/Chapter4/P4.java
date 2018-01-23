@@ -1,22 +1,21 @@
 package Chapter4;
 
-/**
- *Picks a worker to work for you based off of how quickly they get 
- * work done and how much they get paid to work
- * @author Jordan Iwuchukwu
- */
-
 import java.util.Scanner;
 
+/**
+ * Picks a worker to work for you based off of how quickly they get work done
+ * and how much they get paid to work
+ *
+ * @author Jordan Iwuchukwu
+ */
 public class P4 {
 
-    public static void main(String[] args) {
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the 1st bidders name ");
         String FirstName = input.next();
@@ -53,4 +52,3 @@ public class P4 {
     }
 
 }
-
